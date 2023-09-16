@@ -1,0 +1,87 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("/src/styles/LandingPageBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.tittle{
+    font-size: 35px;
+    font-weight:bold;
+}
+
+.subtitle{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.intro-txt{
+    padding: 50px 5px 150px 5px;
+    background-color: rgba(92, 131, 116, 0.9); /* Peach color with 30% opacity */
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    text-align: center;
+}
+.button-container
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.landing-button1{
+    width: 200px;
+    height: 55px;
+    background-color: rgb(24, 61, 61);
+    color: white;
+    border: black;
+    
+}
+
+.landing-button2{
+    width: 200px;
+    height: 55px;
+    background-color: whitesmoke;
+    color: black;
+    border: black;
+}
+
+.landing-button2:hover,.landing-button1:hover{
+    background-color: rgb(30, 78, 78);
+}
+
+@media only screen and (min-width: 1200px){
+    .tittle{
+        padding: 0 100px;
+    }
+    .button-container{
+        padding: 0 200px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .tittle{
+        font-size: 60px;
+    }
+    .landing-button{
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .tittle{
+        font-size: 30px;
+    }
+    .landing-button{
+        width: 100px;
+        height: 50px;
+    }
+}
+
+

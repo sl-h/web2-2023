@@ -1,0 +1,24 @@
+export const CREATE_ARTICLE_REQUEST= "CREATE_ARTICLE_REQUEST";
+export const CREATE_ARTICLE_SUCCESS = "CREATE_ARTICLE_SUCCESS";
+export const CREATE_ARTICLE_FAIL = "CREATE_ARTICLE_FAIL";
+
+export const UPDATE_ARTICLE_REQUEST= "UPDATE_ARTICLE_REQUEST";
+export const UPDATE_ARTICLE_SUCCESS = "UPDATE_ARTICLE_SUCCESS";
+export const UPDATE_ARTICLE_FAIL = "UPDATE_ARTICLE_FAIL";
+
+export const GET_SALESMAN_ARTICLE_REQUEST= "GET_SALESMAN_ARTICLE_REQUEST";
+export const GET_SALESMAN_ARTICLE_SUCCESS = "GET_SALESMAN_ARTICLE_SUCCESS";
+export const GET_SALESMAN_ARTICLE_FAIL = "GET_SALESMAN_ARTICLE_FAIL";
+
+export const GET_ARTICLES_REQUEST= "GET_ARTICLES_REQUEST";
+export const GET_ARTICLES_SUCCESS = "GET_ARTICLES_SUCCESS";
+export const GET_ARTICLES_FAIL = "GET_ARTICLES_FAIL";
+
+
+export const CREATE_ARTICLE_URL = 'api/Article/create-article'
+export const UPDATE_ARTICLE_URL = 'api/Article/update-article'
+export const GET_SALESMAN_ARTICLE_URL = 'api/Article/salesman-articles'
+export const GET_ARTICLES_URL = 'api/Article/get-articles'
+
+export const MAX_FILE_SIZE = 20 * 1024 * 1024;
+export const DEFAULT_IMG_SRC = '/images/article_default.png'

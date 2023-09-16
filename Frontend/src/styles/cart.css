@@ -1,0 +1,87 @@
+
+/* CartItem.css */
+.order-container {
+    padding: 20px;
+}
+
+.address-input{
+    font-size: 12px;
+    height: 20%;
+}
+
+.comment-input{
+    height: 80px;
+}
+
+
+.quantity-buttons {
+    align-items: center;
+    size: legal;
+}
+
+.quantity-button {
+    font-size: 15px;
+    border: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+    background-color: #ddd;
+}
+
+.increase-button {
+    border-radius: 5px 0 0 5px;
+}
+
+.decrease-button {
+    border-radius: 0 5px 5px 0;
+}
+
+.action-button{
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+
+.action-button{
+}
+
+h5{
+    font-weight: bold;
+}
+
+.cart-item:hover {
+    background-color: lightgray; /* Change to the desired color */
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .tittle{
+        font-size: 60px;
+    }
+    .landing-button{
+        width: 150px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 300px){
+    .tittle{
+        font-size: 30px;
+    }
+    .landing-button{
+        width: 100px;
+        height: 50px;
+    }
+}
